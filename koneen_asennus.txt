@@ -1,5 +1,5 @@
 #https://timdeschryver.dev/blog/how-i-have-set-up-my-new-windows-development-environment-in-2022#visual-studio-code-plugins-and-settings
-
+#https://timdeschryver.dev/blog/how-i-have-set-up-my-new-windows-development-environment-in-2022#visual-studio-code-plugins-and-settings
 
 wsl --install
 
@@ -33,4 +33,5 @@ sudo apt update && sudo apt upgrade
 git config --global user.name "Jouko Rintamäki"
 git config --global user.email "jouko.rintamaki@live.fi"
 
-
+#Visual Studio Code extensions
+code --install-extension yzhang.markdown-all-in-one
