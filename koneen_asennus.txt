@@ -1,9 +1,24 @@
+#https://timdeschryver.dev/blog/how-i-have-set-up-my-new-windows-development-environment-in-2022#visual-studio-code-plugins-and-settings
+
+
 wsl --install
 
 #https://winget.run
-winget install -e --id Nvidia.GeForceExperience
-winget install -e --id Microsoft.PowerToys
-winget install -e --id Microsoft.PowerShell
-winget install -e --id JanDeDobbeleer.OhMyPosh
-winget install -e --id Microsoft.VisualStudioCode
-winget install -e --id Yubico.YubikeyManager
+winget install --exact --id Nvidia.GeForceExperience
+winget install --exact --id Microsoft.PowerToys
+winget install --exact --id Microsoft.PowerShell
+winget install --exact --id JanDeDobbeleer.OhMyPosh
+winget install --exact --id Microsoft.VisualStudioCode
+winget install --exact --id Yubico.YubikeyManager
+
+#ms store
+#Microsoft Defender
+winget install --id 9P6PMZTM93LR --exact --source msstore --accept-package-agreements --accept-source-agreements
+
+
+#wsl
+sudo apt-get update
+sudo apt-get install git
+sudo apt-get install wget ca-certificates
+git config --global user.name "Jouko Rintamäki"
+git config --global user.email "jouko.rintamaki@live.fi"
