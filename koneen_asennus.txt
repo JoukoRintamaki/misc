@@ -1,4 +1,9 @@
+wsl --install
+
+#https://winget.run
+winget install -e --id Nvidia.GeForceExperience
 winget install -e --id Microsoft.PowerToys
 winget install -e --id Microsoft.PowerShell
 winget install -e --id JanDeDobbeleer.OhMyPosh
 winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Yubico.YubikeyManager
