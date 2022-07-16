@@ -17,8 +17,13 @@ winget install --id 9P6PMZTM93LR --exact --source msstore --accept-package-agree
 
 
 #wsl
+echo 'jouko ALL=(ALL) NOPASSWD:ALL' /etc/sudoers.d/jouko
+
+
 sudo apt-get update
 sudo apt-get install git
 sudo apt-get install wget ca-certificates
 git config --global user.name "Jouko Rintamäki"
 git config --global user.email "jouko.rintamaki@live.fi"
+
+
