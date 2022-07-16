@@ -1,0 +1,4 @@
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Microsoft.PowerShell
+winget install -e --id JanDeDobbeleer.OhMyPosh
+winget install -e --id Microsoft.VisualStudioCode
