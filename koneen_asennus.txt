@@ -11,6 +11,7 @@ winget install --exact --id JanDeDobbeleer.OhMyPosh
 winget install --exact --id Microsoft.VisualStudioCode
 winget install --exact --id Yubico.YubikeyManager
 winget install --exact --id Valve.Steam
+winget install --exact --id SlackTechnologies.Slack
 
 #ms store
 #Microsoft Defender
